@@ -25,6 +25,11 @@ import { FormsModule } from '@angular/forms';
 import { MatSnackBarModule } from '@angular/material/snack-bar';
 import { SearchResultComponent } from './search-result/search-result.component';
 import { FavouritesComponent } from './favourites/favourites.component';
+<<<<<<< HEAD
+=======
+import { RegisterComponent } from './register/register.component';
+import { LoginComponent } from './login/login.component';
+>>>>>>> 447658680119fd3cdf8b9f395dc63e3142cc4b5e
 
 @NgModule({
   declarations: [
@@ -35,7 +40,13 @@ import { FavouritesComponent } from './favourites/favourites.component';
     AlbumComponent,
     ArtistDiscographyComponent,
     SearchResultComponent,
+<<<<<<< HEAD
     FavouritesComponent
+=======
+    FavouritesComponent,
+    RegisterComponent,
+    LoginComponent
+>>>>>>> 447658680119fd3cdf8b9f395dc63e3142cc4b5e
   ],
   imports: [
     BrowserModule,
