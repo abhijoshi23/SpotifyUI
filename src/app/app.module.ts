@@ -4,6 +4,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+
 import { MatIconModule } from '@angular/material/icon';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatProgressBarModule } from '@angular/material/progress-bar';
@@ -20,33 +21,23 @@ import { NotFoundComponent } from './not-found/not-found.component';
 import { NewReleasesComponent } from './new-releases/new-releases.component';
 import { AlbumComponent } from './album/album.component';
 import { ArtistDiscographyComponent } from './artist-discography/artist-discography.component';
+
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
 import { MatSnackBarModule } from '@angular/material/snack-bar';
 import { SearchResultComponent } from './search-result/search-result.component';
 import { FavouritesComponent } from './favourites/favourites.component';
-<<<<<<< HEAD
-=======
-import { RegisterComponent } from './register/register.component';
-import { LoginComponent } from './login/login.component';
->>>>>>> 447658680119fd3cdf8b9f395dc63e3142cc4b5e
 
 @NgModule({
   declarations: [
     AppComponent,
+    NewReleasesComponent,
     AboutComponent,
     NotFoundComponent,
-    NewReleasesComponent,
     AlbumComponent,
     ArtistDiscographyComponent,
     SearchResultComponent,
-<<<<<<< HEAD
-    FavouritesComponent
-=======
     FavouritesComponent,
-    RegisterComponent,
-    LoginComponent
->>>>>>> 447658680119fd3cdf8b9f395dc63e3142cc4b5e
   ],
   imports: [
     BrowserModule,
@@ -62,12 +53,13 @@ import { LoginComponent } from './login/login.component';
     MatFormFieldModule,
     MatInputModule,
     MatCardModule,
-    MatChipsModule, 
+    MatChipsModule,
+
     HttpClientModule,
     FormsModule,
-    MatSnackBarModule
+    MatSnackBarModule,
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
