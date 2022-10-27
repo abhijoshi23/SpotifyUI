@@ -1,4 +1,6 @@
-# Web422A4
+# SpotifyUI
+
+A spotify clone developed by me using Angular. Which can fetch latest songs from spotify API and play them for you.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.2.
 
