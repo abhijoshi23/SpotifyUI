@@ -9,6 +9,7 @@ import User from '../User';
   templateUrl: './login.component.html',
   styleUrls: ['./login.component.css'],
 })
+
 export class LoginComponent implements OnInit {
   user: User = { userName: '', password: '', _id: '' };
   warning: string = '';
