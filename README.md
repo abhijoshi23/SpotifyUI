@@ -1,6 +1,6 @@
 # SpotifyUI
 
-A spotify clone developed by me using Angular and TypeScript. Which can fetch latest songs from spotify API and play them for you.
+A spotify clone developed by me using MEAN stack. Which is enabled to fetch latest songs from spotify API and play them for you.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.2.
 
