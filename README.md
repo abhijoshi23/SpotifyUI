@@ -2,6 +2,16 @@
 
 A spotify clone developed by me using MEAN stack. Which is enabled to fetch latest songs from spotify API and play them for you.
 
+Some Screenshots:
+Home Page
+![Screenshot 2023-09-06 183842](https://github.com/abhijoshi23/SpotifyUI/assets/94259359/13a28168-fe0e-4ab5-9893-cb92d67d7e36)
+Album Page
+![Screenshot 2023-09-06 183935](https://github.com/abhijoshi23/SpotifyUI/assets/94259359/2069a8de-b6c0-481c-aa42-ea7aa9323409)
+About Page
+![Screenshot 2023-09-06 184109](https://github.com/abhijoshi23/SpotifyUI/assets/94259359/5c21b83b-3c22-44cd-a5fd-d9366968c6db)
+
+
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.2.
 
 ## Development server
